@@ -1,0 +1,25 @@
+name: chatbot_firebase
+description: "Workshop sample: a Flutter chat app connected to Gemini through Firebase AI Logic."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^4.15.0        # Connects the app to your Firebase project
+  firebase_ai: ^4.0.0           # Talks to Gemini (Firebase AI Logic)
+  firebase_app_check: ^0.4.8    # Proves requests really come from this app
+  flutter_spinkit: ^5.2.1       # Typing animation (see DemoConfig.useSpinKitWave)
+  url_launcher: ^6.3.2          # Opens sources and search suggestions in the browser
+  webview_flutter: ^4.14.1      # Shows Google's search suggestions (DemoConfig.useGoogleSearch)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
